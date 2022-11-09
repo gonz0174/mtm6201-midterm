@@ -1,0 +1,213 @@
+/* This is the CSS reset code from Meyer Website */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/************************ Here start my CSS styles *********************/
+/***************************** Mobile Version **************************/
+
+/* It is used to select all the elements of the page and had the same format */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* The class "top nav" that contains the logo and nav has a light purple background color */
+.top_nav {
+    padding: 14px;
+
+    background-color: #E6D0F0;
+}
+
+/* For Mobile Devices the Logo goes vertically (above of the menu part) */
+.logo_nav {
+    display: inline-block;
+
+    max-width: 100%;
+
+    padding: 14px;
+}
+
+/* For Mobile Devices, the Menu goes vertically and the text centred */
+nav ul li {
+    margin: 10px;
+    padding: 20px 14px;
+    display: block;
+
+    position: relative;
+
+    text-align: center;
+
+    background-color: white;
+}
+
+/* The names of the menu go with a specific colour except for the Home part, which has green lime colour and a light purple color. Also, without a line down */
+nav ul li a {
+    font-size: 12pt;
+
+    text-decoration: none;
+    
+    color: #36013F;
+}
+
+/* The class "active" element is to highlight or set a background color with purple font color for mobile and desktop devices */
+.top_nav a.active {
+    color: #7C5199;
+}
+
+/* The Home part goes with a specific background color */
+nav ul li:first-child {
+    background-color: #CCED39;
+}
+
+.circle {
+    margin: 2px;
+
+    border: 2.5px solid #7C5199;
+    border-radius: 50%;
+
+    display: inline-block;
+
+    position: absolute;
+
+    font-family: 'Alice', serif;
+}
+
+.circle.one {
+    top: 3px;
+    left: 3px;
+}
+
+.circle.two {
+    top: 3px;
+    right: 3px;
+}
+
+.circle.three {
+    bottom: 3px;
+    right: 3px;
+}
+
+.circle.four {
+    bottom: 3px;
+    left: 3px;
+}
+
+/* The waves goes down the nav bar part */
+.waves_nav {
+    width: 760px;
+    height: 80px;
+}
+
+h2 {
+    font-family: 'Kaisei Tokumin', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 600;
+
+    padding: 20px 0;
+}
+
+h3 {
+    font-family: 'Kaisei Tokumin', serif;
+    font-size: 12pt;
+    font-weight: 300;
+    text-align: center;
+
+    padding-bottom: 10px;
+}
+
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+
+    padding-top: 10px;
+}
+
+p {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 10pt;
+    font-weight: 100;
+    text-align: center;
+
+    padding-top: 10px;
+}
+
+/* Every session of the main will have a box with a solid border */
+.new_flavours, 
+.about_us, 
+.event_services {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #E6D0F0;
+    background-color: #F4F1EB;
+}
+
+.grid_new_flavours img {
+    max-width: 100%;
+
+    padding: 10px 50px;
+
+    border-radius: 50%;
+}
+
+
+/***************************** Desktop Version **************************/
+
+@media screen and (min-width: 760px) {
+
+    .waves_nav {
+        width: 100%;
+        height: 110px;
+    }
+
+}
+
