@@ -59,6 +59,11 @@ table {
     box-sizing: border-box;
 }
 
+body {
+    background: url("../images/background-sizes/background-all-page.png") center center no-repeat;
+    background-size: cover;
+}
+
 /* The class "top nav" that contains the logo and nav has a light purple background color */
 .top_nav {
     padding: 14px;
