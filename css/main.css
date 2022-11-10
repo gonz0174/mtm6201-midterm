@@ -193,10 +193,30 @@ p {
 
 .grid_new_flavours img {
     max-width: 100%;
+    display: block;
 
+    margin: 0 auto;
     padding: 10px 50px;
 
     border-radius: 50%;
+}
+
+.more_link_new_flavours {
+    display: flex;
+
+    margin-top: 10px;
+    padding: 0 6px;
+
+    background-color: #CCED39;
+
+    border-radius: 20px;
+
+    align-self: flex-end;
+}
+
+.more_link_new_flavours a{
+    text-decoration: none;
+    color: black;
 }
 
 
