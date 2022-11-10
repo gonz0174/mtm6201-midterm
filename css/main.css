@@ -368,8 +368,8 @@ div .event_services_images {
   
   .button_menu:hover {
     animation-name: background;
-    animation-duration: 4s;
-    animation-delay: .5s;
+    animation-duration: 2s;
+    animation-delay: .3ss;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
   }
