@@ -97,6 +97,15 @@ nav ul li a {
     color: #36013F;
 }
 
+/* A hover is going to be applied, so the people knows where they are */
+nav ul li:hover {
+    background-color: #CCED39;
+}
+
+nav ul li a:hover {
+    color: #7C5199;
+}
+
 /* The class "active" element is to highlight or set a background color with purple font color for mobile and desktop devices */
 .top_nav a.active {
     color: #7C5199;
@@ -140,12 +149,6 @@ nav ul li:first-child {
     left: 3px;
 }
 
-/* The waves goes down the nav bar part */
-.waves_nav {
-    width: 760px;
-    height: 80px;
-}
-
 h2 {
     font-family: 'Kaisei Tokumin', serif;
     text-transform: uppercase;
@@ -170,6 +173,11 @@ h4 {
     text-transform: uppercase;
 
     padding-top: 10px;
+}
+
+h5 {
+    text-align: center;
+    padding: 10px 0;
 }
 
 p {
@@ -201,25 +209,89 @@ p {
     border-radius: 50%;
 }
 
-.more_link_new_flavours {
+.more_link {
     display: flex;
+    justify-content: flex-end;
+}
 
+.more_link a{
+    text-decoration: none;
+    font-size: 10pt;
+    color: black;
+}
+
+.more_link_new_flavours {
     margin-top: 10px;
-    padding: 0 6px;
+    padding: 1.5px 6px;
 
     background-color: #CCED39;
 
     border-radius: 20px;
-
-    align-self: flex-end;
 }
 
-.more_link_new_flavours a{
-    text-decoration: none;
-    color: black;
+.about_images div{
+    display: flex;
+    justify-content: center;
 }
 
+.about_images div img {
+    max-width: 100%;
 
+    margin: 0 auto;
+}
+
+.more_link_about_us {
+    margin-top: 10px;
+    padding: 1.5px 6px;
+
+    background-color:#E6D0F0;
+
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #E6D0F0;
+}
+
+.icons_links {
+    display: flex;
+    justify-content: center;
+}
+
+footer div img {
+    height: 40px;
+}
+
+div .event_services_images {
+    display: flex;
+    justify-content: center;
+}
+
+.event_services img {
+    height: 250px;
+    width: 200px;
+
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.more_link_event_services {
+    margin-top: 10px;
+    padding: 1.5px 6px;
+
+    background-color:#7C5199;
+    color: white;
+
+    border-radius: 20px;
+}
+
+.more_link_event_services a {
+    color: white;
+}
+
+.waves_nav, .sprinkles_footer {
+    width: 100%;
+}
 /***************************** Desktop Version **************************/
 
 @media screen and (min-width: 760px) {
