@@ -322,6 +322,13 @@ div .event_services_images {
 }
 
 /******************* Menu Part Start Here ****************/
+.container_menu {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    padding:  10px 10px;
+}
+
 .button_menu {
     display: block;
     
@@ -383,6 +390,7 @@ div .event_services_images {
 
 .menu_grid {
     display: grid;
+    gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
