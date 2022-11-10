@@ -381,7 +381,7 @@ div .event_services_images {
     animation-timing-function: ease-in;
   }
 
-  .products img {
+  .products img{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -467,6 +467,9 @@ td {
     padding: 14px;
 
     display: inline-block;
+    
+    max-width: 1300px;
+
 }
 
 .about_us_artkery img {
@@ -607,6 +610,10 @@ td {
 
     .about_us_artkery img {
         width: 45%;
+    }
+
+    .about_us_artkery ul {
+        margin-top: 30px;
     }
 
     /******************* Menu Desktop Version Start Here ***************/
