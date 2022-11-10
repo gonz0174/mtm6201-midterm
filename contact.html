@@ -4,9 +4,192 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/c9f1b2e120.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Arima+Madurai:wght@200&family=Kaisei+Tokumin&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav class="top_nav">
+            <div class="grid_nav">
+                <div class="logo_nav">
+                    <a href="index.html">
+                    <img 
+                    class="logo_nav"
+                    srcset="images/logo-sizes/artkery-logo-cutout-150_x_150.png 150w,
+                            images/logo-sizes/artkery-logo-cutout-200_x_200.png 200w" 
+                    sizes="(max-width:760px) 150px, 
+                            (max-width: 1920px) 200px"
+                    src="images/logo-sizes/artkery-logo-cutout.png" 
+                    alt="art-kery logo with slogan a flavour for each mood">
+                    </a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a class="active" href="index.html">
+                            Home
+                            <span class="circle one"></span>
+                            <span class="circle two"></span>
+                            <span class="circle three"></span>
+                            <span class="circle four"></span>
+                        </a></li>
+                        <li><a href="menu.html">
+                            Menu
+                            <span class="circle one"></span>
+                            <span class="circle two"></span>
+                            <span class="circle three"></span>
+                            <span class="circle four"></span>
+                        </a></li>
+                        <li><a href="about.html">
+                            About us
+                            <span class="circle one"></span>
+                            <span class="circle two"></span>
+                            <span class="circle three"></span>
+                            <span class="circle four"></span>
+                        </a></li>
+                        <li><a href="contact.html">
+                            Contact Us
+                            <span class="circle one"></span>
+                            <span class="circle two"></span>
+                            <span class="circle three"></span>
+                            <span class="circle four"></span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <img class="waves_nav"
+        srcset="images/wave-sizes/nav-wave-background-cutout-760_x_100.png 760w,
+                images/wave-sizes/nav-wave-background-cutout-1920_x_256.png 1920w" 
+        sizes="(max-width:760px) 760px, 
+                (max-width: 1920px) 1920px"
+        src="images/wave-sizes/nav-wave-background-cutout.png" 
+        alt="waves that represents an ice cream melting">
+    </header>
+
+    <main>
+        <div class="contact_us">
+            <div>
+                <h2>Contact Us</h2>
+                <div class="grid_contact">
+                    <!--This div class "formulary" contain a contact form with its respective labels and inputs. Also, contain a button.-->
+                    <div class="formulary">
+                        <h3>Send us a message</h3>
+                        <form class="form-contact" action="#" method="post">
+                            <label for="name">Full Name</label>
+                            <input type="text" class="controls" name="name" id="name">
+                            
+                            <label for="email">Email</label>
+                            <input type="email" class="controls" name="email" id="email">
+                            
+                            <label for="message">Message</label>
+                            <textarea name="message" class="message" id="message"></textarea>
+
+                            <input class="button" type="submit" value="Send">
+                        </form>
+                    </div>
+                    <!--This div class "hours operation" contain a table with its respective head and body. For mobile devices, it goes below the formulary, and for desktop, it goes below the formulary and location-->
+                    <div class="hours_operation">
+                        <h3>Hours of Operation</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Days</th>
+                                    <th>Opening Hours</th>
+                                </tr>   
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>10 AM - 8 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday - Sunday</td>
+                                    <td>8 AM - 6 PM</td>
+                                </tr>  
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="location">
+                        <h3>Location</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22431.55782099453!2d-75.754937!3d45.349928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1ses!2sca!4v1660092523578!5m2!1ses!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img class="sprinkles_footer" 
+        srcset="images/sprinkles-sizes/sprinkles-footer-760_x_20.png 760w,
+                images/sprinkles-sizes/sprinkles-footer-1920_x_40.png 1920w" 
+                        sizes="(max-width:760px) 760px,
+                            (max-width: 1920px) 1920px"
+        src="images/sprinkles-sizes/sprinkles-footer.png" 
+        alt="sprinkles that is for decoration at the top of the footer">
+        <div class="flex_footer">
+            <div class="social_media_icon">
+                <div>
+                    <h5>Social Media:</h5>
+                </div>
+                <div class="icons_links">
+                    <a href="#" target="_blank">
+                        <img src="images/icons-sizes/instagram-icon.png" alt="instagram logo for icon">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="images/icons-sizes/facebook-icon.png" alt="facebook logo for icon">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="images/icons-sizes/twitter-icon.png" alt="twitter logo for icon">
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact_us_icon">
+                <div>
+                    <h5>Contact US:</h5>
+                </div>
+                <div class="icons_links">
+                    <a href="#" target="_blank">
+                        <img src="images/icons-sizes/phone-icon.png" alt="whatsapp logo for icon">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="images/icons-sizes/mail-icon.png" alt="mail logo for icon">
+                    </a>
+                </div>
+            </div>
+
+            <div class="shop_cart_icon">
+                <div>
+                    <h5>Shop Cart:</h5>
+                </div>
+                <div class="icons_links">
+                    <a href="#" target="_blank">
+                        <img src="images/icons-sizes/shopping-cart-icon.png" alt="shop cart icon personalized">
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="find_store_icon">
+                <div>
+                    <h5>Find a Store:</h5>
+                </div>
+                <div class="icons_links">
+                    <a href="#" target="_blank">
+                        <img src="images/icons-sizes/find-us-icon.png" alt="store as an image for icon personalized">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p>&copy; Copyright 2022 Artkery Bakery. All rights reserved.</p>
+        </div>
+    </footer>
     
 </body>
 </html>

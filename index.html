@@ -13,7 +13,13 @@
 </head>
 <body>
     <header>
-        <nav class="top_nav">
+        <!-- Adding Skip Links to make it more accessible. -->
+        <ul class="skip_links">
+            <li><a href="#nav">Skip to main nav</a></li>
+            <li><a href="#main">Skip to main content</a></li>
+        </ul>
+
+        <nav id=nav class="top_nav">
             <div class="grid_nav">
                 <div class="logo_nav">
                     <a href="index.html">
@@ -71,7 +77,7 @@
     </header>
 
     <main class="grid_main">
-        <div class="new_flavours">
+        <div id=main class="new_flavours">
             <h2>New Flavours:</h2>
             <div class="grid_new_flavours">
                 <div>
