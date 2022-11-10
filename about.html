@@ -70,6 +70,69 @@
         alt="waves that represents an ice cream melting">
     </header>
 
+    <main>
+        <div class="about_us_artkery">
+            <div>
+                <h2>About Us</h2>
+                <div class= "camila_flexbox">
+                    <img 
+                    srcset="images/about-sizes/camila-about-300_x_400.JPG 300w,
+                            images/about-sizes/camila-about-500_x_600.JPG 500w"
+                    sizes="(max-width:760px) 300px,
+                            (max-width:1920px) 300px"
+                    src="images/about-sizes/camila-about.JPG" 
+                    alt="camila's portrait with a black background color">
+                    <!--It has a class because everything with this name will have the same background color and specs-->
+                    <div class="container_about camila_info">
+                        <h3>Camila Torres</h3>
+                        <h4>Meet Camila</h4>
+                        <!-- Adding Schema on the employee information. -->
+                        <ul itemscope itemtype="https://schema.org/Person">
+                            <li itemprop="name">Name: Camila</li>
+                            <li itemprop="jobTitle">Title: CEO and Bakery</li>
+                            <li itemprop="email">Email: artkery@camilatorres.ca</li>
+                            <li itemprop="telephone">Phone: 123-456-7890</li>
+                            <li itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">Address: 
+                                <span itemprop="name">Artkery</span> 
+                                <span itemprop="streetAddress">123 Lees Road,</span>
+                                <span itemprop="addressLocality">Ottawa,</span>
+                                <span itemprop="addressCountry">Canada.</span>
+                                <span itemprop="postalCode">A1B 2C3</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gabriella_flexbox gabriella_info">
+                    <img
+                    srcset="images/about-sizes/gabriella-about-300_x_400.JPG 300w,
+                            images/about-sizes/gabriella-about-500_x_600.JPG 500w"
+                    sizes="(max-width:760px) 300px,
+                            (max-width:1920px) 300px" 
+                    src="images/about-sizes/gabriella-about.JPG" 
+                    alt="gabriella's portrait with black uniform">
+                    <div class="container_about">
+                        <h3>Gabriella Mcguire</h3>
+                        <h4>Meet Gabriella</h4>
+                        <!-- Adding Schema on the employee information. -->
+                        <ul itemscope itemtype="https://schema.org/Person">
+                            <li itemprop="name">Name: Gabriella</li>
+                            <li itemprop="jobTitle">Title: Bakery</li>
+                            <li itemprop="email">Email: artkery@gabriellamcguire.ca</li>
+                            <li itemprop="telephone">Phone: 198-765-4320</li>
+                            <li itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">Address: 
+                                <span itemprop="name">Artkery</span> 
+                                <span itemprop="streetAddress">123 Lees Road,</span>
+                                <span itemprop="addressLocality">Ottawa,</span>
+                                <span itemprop="addressCountry">Canada.</span>
+                                <span itemprop="postalCode">A1B 2C3</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <footer>
         <img class="sprinkles_footer" 
         srcset="images/sprinkles-sizes/sprinkles-footer-760_x_20.png 760w,

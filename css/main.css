@@ -404,7 +404,51 @@ td {
     margin-bottom: 20px;
 }
 
-/***************************** Desktop Version **************************/
+/********************* About Us Version Start Here ***********************/
+.about_us_artkery {
+    width: 100%;
+    margin: 0 auto;
+    padding: 14px;
+
+    display: inline-block;
+}
+
+.about_us_artkery img {
+    width: 100%;
+    margin: 0 auto;
+}
+/* The class "container_about" contains h3, h4 and a description of the employee, it has a class because everything with this name will have the same background color and specs */
+.container_about {
+    margin-bottom: 14px;
+
+    background-color: #F4F1EB;
+}
+
+.container_about h4 {
+    margin: 0 14px 0 14px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #CCED39;
+
+    font-weight: 600;
+}
+
+.container_about ul {
+    margin: 0 auto;
+    padding: 14px 14px 40px;
+
+    text-align: center;
+
+    color: #222222;
+}
+
+.container_about ul li {
+    margin: 10px;
+}
+
+
+/*********************************************************************** 
+****************************** Desktop Version **************************
+*************************************************************************/
 
 @media screen and (min-width: 760px) {
     .grid_nav {
@@ -498,6 +542,29 @@ td {
     .hours_operation table {
         width: 100%;
         margin-bottom: 14px;
+    }
+
+    /************** About Us Desktop Version Start Here *********************/
+    .about_us_artkery h2 {
+        margin-bottom: 40px;
+    }
+    
+    .about_us_artkery {
+        margin: 0 auto;
+    }
+
+    .camila_flexbox {
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+    .gabriella_flexbox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about_us_artkery img {
+        width: 45%;
     }
     
 }
