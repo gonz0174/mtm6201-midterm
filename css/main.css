@@ -303,6 +303,27 @@ div .event_services_images {
     width: 100%;
 }
 
+/****** Menu Part start here *******/
+.button_menu {
+    display: block;
+    
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+
+    background-color: #E6D0F0;
+    color: black;
+
+    padding: 20px;
+    margin: 10px;
+}
+
+.button_menu:hover {
+    background-color: #7C5199;
+    color: white;
+
+}
+
 
 /***************************** Desktop Version **************************/
 
